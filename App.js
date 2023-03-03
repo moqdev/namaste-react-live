@@ -92,7 +92,7 @@ const HeaderComponent = () => {
   return (
     <div>
       {Title()}
-      <h2>Namaste React Functional Component 😍😍😍</h2>
+      <h2>Namaste React Functional Component 🤩😍😍😍</h2>
       <h2>This is a h2 tag</h2>
     </div>
   );
@@ -104,7 +104,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //async defer
 
 // To render Functional Component:
-// root.render(<HeaderComponent />);
+root.render(<HeaderComponent />);
 
 // To render JSX/React Element:
 // root.render(heading);
