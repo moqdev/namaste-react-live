@@ -55,7 +55,7 @@ const HeaderComponentOneLiner = () => {
 const HeaderComponentMultipleLiner = () => {
   return (
     <div>
-      <h1>Namaste React Functional Component</h1>
+      <h1>Namaste React Functional Component Babyyyyy</h1>
       <h2>This is a h2 tag</h2>
     </div>
   );
@@ -104,7 +104,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //async defer
 
 // To render Functional Component:
-root.render(<HeaderComponent />);
+// root.render(<HeaderComponent />);
 
 // To render JSX/React Element:
 // root.render(heading);
