@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react-live",
+  "version": "1.0.0",
+  "description": "This is a live hands-on course.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moqdev/namaste-react-live.git"
+  },
+  "author": "Mona W.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moqdev/namaste-react-live/issues"
+  },
+  "homepage": "https://github.com/moqdev/namaste-react-live#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
