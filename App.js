@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM, { createRoot } from "react-dom/client";
 
 //COMPONENTS:
 // React Component is a function that returns a React Element.
@@ -75,7 +75,7 @@ const HeaderComponent4 = () => {
 
 // When you writing JSX you just need to put {}
 // then you can write any piece of javascript code inside it!
-var xyz = 175;
+var xyz = 1786;
 const HeaderComponent3 = () => {
   return (
     <div>
