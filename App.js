@@ -1,28 +1,35 @@
 import React from "react";
 import ReactDOM, { createRoot } from "react-dom/client";
 
-// React Element Example A: (varible --> title must be lowercase)
-const title = (
+// // React Element Example C: Third Way
+const Title = () => (
   <h1 id="title" key="h2">
-    Food Villa
+    Food Villa App
   </h1>
 );
 
-//Must use curly braces and title must be lowercase
-const HeaderComponent = () => {
+// Example C: You can use it just like an opening and closing tag
+const HeaderComponentC = () => {
   return (
     <div>
-      {title}
-      <h2>Namaste React</h2>
+      <Title></Title>
+      <h2>Namaste React - Third Example</h2>
       <h2>This is a h2 tag</h2>
     </div>
   );
 };
 
-// CAN YOU JUST USE REACT IN YOUR FOOTER ONLY? YES! --> By your "root".
-// Change the root to "footer" and it will only render in the footer.
-// AND In index.html change the id="root" to id="footer"
+// Most commonly used Santax:
+// Is the self closing tag syntax --> <Title />
+const HeaderComponent = () => {
+  return (
+    <div>
+      <Title />
+      <h2>Namaste React - Most commonly Used Syntax</h2>
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeaderComponent2 />);
+root.render(<HeaderComponent />);
