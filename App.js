@@ -8,19 +8,7 @@ const Title = () => (
   </h1>
 );
 
-// Example C: You can use it just like an opening and closing tag
-const HeaderComponentC = () => {
-  return (
-    <div>
-      <Title></Title>
-      <h2>Namaste React - Third Example</h2>
-      <h2>This is a h2 tag</h2>
-    </div>
-  );
-};
 
-// Most commonly used Santax:
-// Is the self closing tag syntax --> <Title />
 const HeaderComponent = () => {
   return (
     <div>
