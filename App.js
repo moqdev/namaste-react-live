@@ -18,6 +18,45 @@ const HeaderComponent = () => {
   );
 };
 
+// Build the layout.
+// Step 1. Create your AppLayout, list it out. 
+
+const AppLayout = () => {
+  return (
+    { 
+      /**
+    Header
+      - Logo
+      - Nav Items (Right Side)
+      - Cart
+    Body 
+     - Search Bar
+      - List of Restaurants
+       - Restaurant Card
+        - Image
+        - Name
+        - Rating
+        - Price
+        - Cusines
+    Footer
+     - links
+     - copyrights
+  */ 
+ 
+    }
+  );
+
+
+
+
+
+
+
+
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<HeaderComponent />);
